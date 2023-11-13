@@ -35,12 +35,12 @@ class SerialHandler(Node):
             identifier_ = serial_read[1:5] # The identifier is tells us what the data means
             data_ = serial_read[5:]
             
-            if serial_data[1] == b'w': # If the first byte is 'w', add the data to the serial_write buffer
-                self.serial_write_buffer.append(self.SerialWriteFeedback[])
+            if serial_read[1] == b'w': # If the first byte is 'w', add the data to the serial_write buffer
+                self.serial_write_buffer.append(self.SerialWriteFeedback[identifier_,data_])
             else: # If the first byte is 'r' or anything else, perform serial_read logic
                 msg = SerialRead()
-                msg.identifier = b''.join(serial_data[:2])
-                
+                msg.identifier = b''.join(serial_read[:2])
+                msg.data = data_
                 self.publisher_.publish(msg)
                 print(msg.data) 
 
