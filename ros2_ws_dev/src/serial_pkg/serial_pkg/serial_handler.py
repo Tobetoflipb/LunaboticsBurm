@@ -14,27 +14,35 @@ class SerialHandler(Node):
 
         # Open serial ports
         # I need to make a more sophisticated method to make sure that the portnames are correct
-        SerialPort = namedtuple('SerialPort',['portname','ser'])
+        self.SerialPort = namedtuple('SerialPort',['portname','ser'])
         self.SerialPorts[
             # Stand-in serial port names
-            SerialPort('Actuators',serial.Serial('/dev/ttyACM0')),
-            SerialPort('Sensors',serial.Serial('/dev/ttyACM1')),
+            self.SerialPort('Actuators',serial.Serial('/dev/ttyACM0')),
+            self.SerialPort('Sensors',serial.Serial('/dev/ttyACM1')),
         ]
 
-        timer_period  = 1/20 #s
+        self.SerialWriteFeedback = namedtuple('SerialPortFeedback',['identifier','data'])
+        self.serial_write_buffer= [] # Create an empty list for containing serial_write feedback
+
+        timer_period  = 1/10 #s
         self.timer = self.create_timer(timer_period,self.timer_callback)
-        self.i = 0
 
     def timer_callback(self):
-        msg = SerialRead()
-        msg.identifier = 'test'
-        #msg.data = self.i.to_bytes(2,'big')
-        msg.data = self.ser1.readline()
-        msg.data = msg.data[:-2]
-        print(msg.data)
-        self.publisher_.publish(msg)
-        #self.get_logger().info('Publishing: %s' % msg.data.decode("utf-8"))
-        self.i += 1
+        for i in self.SerialPorts:
+            serial_read = self.SerialPorts[i].ser.readline() # Read the serial port
+            serial_read = serial_read[:-2] # Trim off last two bytes which contain /r/n
+
+            identifier_ = serial_read[1:5] # The identifier is tells us what the data means
+            data_ = serial_read[5:]
+            
+            if serial_data[1] == b'w': # If the first byte is 'w', add the data to the serial_write buffer
+                self.serial_write_buffer.append(self.SerialWriteFeedback[])
+            else: # If the first byte is 'r' or anything else, perform serial_read logic
+                msg = SerialRead()
+                msg.identifier = b''.join(serial_data[:2])
+                
+                self.publisher_.publish(msg)
+                print(msg.data) 
 
     def serial_write_callback(self,request,response):
         for i in self.SerialPorts:
