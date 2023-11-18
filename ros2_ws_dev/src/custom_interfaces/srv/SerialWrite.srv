@@ -1,5 +1,3 @@
 string portname
 byte[] data
 ---
-string identifier
-byte[] feedback

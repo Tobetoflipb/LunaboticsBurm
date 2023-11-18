@@ -17,26 +17,27 @@ class SerialHandler(Node):
         self.SerialPort = namedtuple('SerialPort',['portname','ser'])
         self.SerialPorts[
             # Stand-in serial port names
-            self.SerialPort('Test',serial.Serial('/dev/ttyACM0')),
+            self.SerialPort('Actuators',serial.Serial('/dev/ttyACM0')),
             self.SerialPort('Sensors',serial.Serial('/dev/ttyACM1')),
         ]
+
+        self.SerialWriteFeedback = namedtuple('SerialPortFeedback',['identifier','data'])
+        self.serial_write_buffer= [] # Create an empty list for containing serial_write feedback
 
         timer_period  = 1/10 #s
         self.timer = self.create_timer(timer_period,self.timer_callback)
 
     def timer_callback(self):
         for i in self.SerialPorts:
-            if self.SerialPorts[i].ser.in_waiting > 0:
-                serial_read = self.SerialPorts[i].ser.readline() # Read the serial port
-                serial_read = serial_read[:-2] # Trim off last two bytes which contain /r/n
+            serial_read = self.SerialPorts[i].ser.readline() # Read the serial port
+            serial_read = serial_read[:-2] # Trim off last two bytes which contain /r/n
 
-                identifier_ = b''.join(serial_read[0:3]).decode("utf-8") # The identifier tells us what the data means
-                data_ = serial_read[4:]
-                
-                #if serial_read[1] == b'w': # If the first byte is 'w', add the data to the serial_write buffer
-                    #self.serial_write_buffer.append(self.SerialWriteFeedback[identifier_,data_])
-                #else: # If the first byte is 'r' or anything else, perform serial_read logic
-
+            identifier_ = b''.join(serial_read[1:5]).decode("utf-8") # The identifier tells us what the data means
+            data_ = serial_read[5:]
+            
+            if serial_read[1] == b'w': # If the first byte is 'w', add the data to the serial_write buffer
+                self.serial_write_buffer.append(self.SerialWriteFeedback[identifier_,data_])
+            else: # If the first byte is 'r' or anything else, perform serial_read logic
                 msg = SerialRead()
                 msg.identifier = identifier_
                 msg.data = data_
@@ -49,8 +50,7 @@ class SerialHandler(Node):
                 port_to_write = self.SerialPorts[i].ser
 
         port_to_write.write(request.data)
-        
-        return response
+
         
 def main():
     rclpy.init()
