@@ -1,0 +1,192 @@
+[0.439s] Invoking command in '/home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/colin/LunaboticsBurm/ros2_ws_dev/src/custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces
+[0.503s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.309s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.607s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.826s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[1.859s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.147s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.382s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[3.801s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[4.628s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.735s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.839s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[5.853s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[5.966s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.967s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.968s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.968s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[6.066s] -- Found PythonExtra: .so  
+[6.222s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[6.355s] -- Added test 'lint_cmake' to check CMake code style
+[6.362s] -- Added test 'xmllint' to check XML markup files
+[6.383s] -- Configuring done
+[6.562s] -- Generating done
+[6.576s] -- Build files have been written to: /home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces
+[6.591s] Invoked command in '/home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/colin/LunaboticsBurm/ros2_ws_dev/src/custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces
+[6.600s] Invoking command in '/home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces -- -j4 -l4
+[6.787s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[6.816s] [  2%] Built target ament_cmake_python_symlink_custom_interfaces
+[7.635s] [  2%] Built target custom_interfaces__rosidl_generator_type_description
+[7.679s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.716s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.002s] running egg_info
+[8.005s] creating custom_interfaces.egg-info
+[8.006s] writing custom_interfaces.egg-info/PKG-INFO
+[8.007s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[8.008s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[8.010s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[8.019s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[8.022s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[8.185s] [  8%] Built target ament_cmake_python_build_custom_interfaces_egg
+[8.823s] [  8%] Built target custom_interfaces__cpp
+[8.976s] [ 11%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/serial_read__description.c.o[0m
+[8.978s] [ 14%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/serial_read__functions.c.o[0m
+[8.981s] [ 17%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/serial_read__type_support.c.o[0m
+[9.270s] [ 20%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so[0m
+[9.434s] [ 20%] Built target custom_interfaces__rosidl_generator_c
+[9.477s] [ 23%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.479s] [ 26%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.481s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.485s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.811s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/serial_read__type_support.cpp.o[0m
+[10.832s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/serial_read__type_support.cpp.o[0m
+[10.859s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/serial_read__type_support_c.cpp.o[0m
+[10.886s] [ 44%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/serial_read__type_support.c.o[0m
+[11.070s] [ 47%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so[0m
+[11.083s] [ 50%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[11.216s] [ 50%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[11.238s] [ 50%] Built target custom_interfaces__rosidl_typesupport_c
+[11.263s] [ 52%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.280s] [ 55%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[12.690s] [ 58%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/serial_read__type_support.cpp.o[0m
+[12.711s] [ 61%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/serial_read__type_support.cpp.o[0m
+[13.328s] [ 64%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so[0m
+[13.379s] [ 67%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[13.560s] [ 67%] Built target custom_interfaces__rosidl_typesupport_cpp
+[13.742s] [ 67%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[14.843s] [ 70%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[15.147s] [ 70%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[15.562s] [ 73%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[15.853s] [ 73%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[15.930s] [ 73%] Built target custom_interfaces
+[16.010s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[17.176s] [ 76%] Built target custom_interfaces__py
+[17.255s] [ 79%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_serial_read_s.c.o[0m
+[17.793s] [ 82%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so[0m
+[17.974s] [ 82%] Built target custom_interfaces__rosidl_generator_py
+[18.057s] [ 85%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[18.059s] [ 88%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[18.061s] [ 91%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[18.514s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[18.529s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[18.564s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[18.680s] [100%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[18.697s] [100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[18.740s] [100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[18.779s] Invoked command in '/home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces -- -j4 -l4
+[19.208s] Invoking command in '/home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces
+[19.235s] -- Install configuration: ""
+[19.237s] -- Execute custom install script
+[19.238s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[19.239s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/msg/SerialRead.json
+[19.242s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/serial_read__functions.h
+[19.243s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/serial_read__struct.h
+[19.244s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/serial_read__type_support.h
+[19.245s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[19.246s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/serial_read.h
+[19.247s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[19.248s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[19.251s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/serial_read__rosidl_typesupport_fastrtps_c.h
+[19.252s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.254s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/serial_read__rosidl_typesupport_introspection_c.h
+[19.255s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.257s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/serial_read__builder.hpp
+[19.258s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/serial_read__struct.hpp
+[19.259s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/serial_read__traits.hpp
+[19.260s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/serial_read.hpp
+[19.263s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/serial_read__rosidl_typesupport_fastrtps_cpp.hpp
+[19.264s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.267s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/serial_read__rosidl_typesupport_introspection_cpp.hpp
+[19.267s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[19.268s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[19.270s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[19.271s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[19.272s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[19.273s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[19.278s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/__init__.py
+[19.279s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[19.280s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[19.281s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[19.282s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[19.282s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[19.283s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[19.284s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so
+[19.285s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/msg/__init__.py
+[19.286s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/msg/_serial_read.py
+[19.287s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/msg/_serial_read_s.c
+[19.289s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[19.290s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[19.292s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[19.293s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/msg/SerialRead.idl
+[19.294s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/msg/SerialRead.msg
+[19.295s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[19.296s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[19.297s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[19.298s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[19.299s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[19.300s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[19.301s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[19.302s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[19.303s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[19.304s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[19.304s] -- Symlinking: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/package.dsv
+[19.335s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[19.336s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[19.337s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.338s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[19.340s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[19.341s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.342s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.343s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.344s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[19.345s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[19.346s] -- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/package.xml
+[19.348s] -- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[19.350s] -- Set runtime path of "/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""
+[19.351s] -- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[19.354s] -- Set runtime path of "/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[19.355s] -- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[19.358s] -- Set runtime path of "/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[19.359s] -- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[19.361s] -- Set runtime path of "/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""
+[19.363s] -- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[19.365s] -- Set runtime path of "/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[19.367s] -- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[19.370s] -- Set runtime path of "/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[19.370s] -- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[19.373s] -- Set runtime path of "/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""
+[19.521s] Listing '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces'...
+[19.522s] Compiling '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/__init__.py'...
+[19.523s] Listing '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/msg'...
+[19.524s] Compiling '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/msg/__init__.py'...
+[19.525s] Compiling '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/msg/_serial_read.py'...
+[19.544s] -- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so
+[19.547s] -- Set runtime path of "/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""
+[19.547s] -- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake
+[19.549s] -- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[19.552s] -- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[19.554s] -- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[19.557s] -- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[19.559s] -- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[19.562s] -- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[19.563s] -- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[19.565s] -- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake
+[19.567s] -- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[19.568s] -- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[19.570s] -- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[19.572s] -- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[19.574s] -- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[19.575s] -- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[19.577s] -- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake
+[19.579s] -- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[19.586s] Invoked command in '/home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces

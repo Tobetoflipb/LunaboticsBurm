@@ -1,0 +1,13 @@
+[0.000000] (-) TimerEvent: {}
+[0.001560] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.002194] (serial_pkg) JobQueued: {'identifier': 'serial_pkg', 'dependencies': OrderedDict()}
+[0.002558] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.099161] (-) TimerEvent: {}
+[0.200303] (-) TimerEvent: {}
+[0.215221] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 0}
+[0.218724] (serial_pkg) JobStarted: {'identifier': 'serial_pkg'}
+[0.300547] (-) TimerEvent: {}
+[0.401541] (-) TimerEvent: {}
+[0.502333] (-) TimerEvent: {}
+[0.512432] (serial_pkg) JobEnded: {'identifier': 'serial_pkg', 'rc': 'SIGINT'}
+[0.523770] (-) EventReactorShutdown: {}

@@ -1,0 +1,22 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating serial_pkg.egg-info
+writing serial_pkg.egg-info/PKG-INFO
+writing dependency_links to serial_pkg.egg-info/dependency_links.txt
+writing entry points to serial_pkg.egg-info/entry_points.txt
+writing requirements to serial_pkg.egg-info/requires.txt
+writing top-level names to serial_pkg.egg-info/top_level.txt
+writing manifest file 'serial_pkg.egg-info/SOURCES.txt'
+reading manifest file 'serial_pkg.egg-info/SOURCES.txt'
+writing manifest file 'serial_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib/python3.10/site-packages/serial-pkg.egg-link (link to .)
+Installing serial_handler script to /home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib/serial_pkg
+Installing serial_listener script to /home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib/serial_pkg
+
+Installed /home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg
+running install_data

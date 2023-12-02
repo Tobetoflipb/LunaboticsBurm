@@ -1,0 +1,22 @@
+[6.900s] Invoking command in '/home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg': PYTHONPATH=/home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg/prefix_override:/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg/build --no-deps install_data
+[8.627s] running develop
+[8.634s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[8.635s]   warnings.warn(
+[8.641s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.641s]   warnings.warn(
+[9.256s] running egg_info
+[9.257s] writing serial_pkg.egg-info/PKG-INFO
+[9.258s] writing dependency_links to serial_pkg.egg-info/dependency_links.txt
+[9.258s] writing entry points to serial_pkg.egg-info/entry_points.txt
+[9.259s] writing requirements to serial_pkg.egg-info/requires.txt
+[9.260s] writing top-level names to serial_pkg.egg-info/top_level.txt
+[9.267s] reading manifest file 'serial_pkg.egg-info/SOURCES.txt'
+[9.271s] writing manifest file 'serial_pkg.egg-info/SOURCES.txt'
+[9.276s] running build_ext
+[9.277s] Creating /home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib/python3.10/site-packages/serial-pkg.egg-link (link to .)
+[9.281s] Installing serial_handler script to /home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib/serial_pkg
+[9.282s] Installing serial_listener script to /home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib/serial_pkg
+[9.283s] 
+[9.283s] Installed /home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg
+[9.284s] running install_data
+[9.410s] Invoked command in '/home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg' returned '0': PYTHONPATH=/home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg/prefix_override:/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg/build --no-deps install_data

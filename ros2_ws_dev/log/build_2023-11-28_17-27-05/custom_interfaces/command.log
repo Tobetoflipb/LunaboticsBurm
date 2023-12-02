@@ -1,0 +1,2 @@
+Invoking command in '/home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces': /usr/bin/cmake /home/colin/LunaboticsBurm/ros2_ws_dev/src/custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces
+Invoked command in '/home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces' returned '1': /usr/bin/cmake /home/colin/LunaboticsBurm/ros2_ws_dev/src/custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces

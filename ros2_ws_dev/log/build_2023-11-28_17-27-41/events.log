@@ -1,0 +1,431 @@
+[0.000000] (-) TimerEvent: {}
+[0.001498] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.002033] (serial_pkg) JobQueued: {'identifier': 'serial_pkg', 'dependencies': OrderedDict()}
+[0.002306] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.099044] (-) TimerEvent: {}
+[0.174058] (serial_pkg) JobStarted: {'identifier': 'serial_pkg'}
+[0.199329] (-) TimerEvent: {}
+[0.300424] (-) TimerEvent: {}
+[0.401689] (-) TimerEvent: {}
+[0.429216] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.431664] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/colin/LunaboticsBurm/ros2_ws_dev/src/custom_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces'], 'cwd': '/home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'colin'), ('SSH_CLIENT', '192.168.10.147 58600 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/colin/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('BROWSER', '/home/colin/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/colin'), ('OLDPWD', '/home/colin/LunaboticsBurm'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-81193f7c-8d91-4e51-bc15-83ec35dc8e44.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/colin/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/colin/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'colin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('PATH', '/opt/ros/iron/bin:/home/colin/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-67414c3a5b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.10.147 58600 192.168.10.149 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.501929] (-) TimerEvent: {}
+[0.504878] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.602148] (-) TimerEvent: {}
+[0.702926] (-) TimerEvent: {}
+[0.803984] (-) TimerEvent: {}
+[0.904986] (-) TimerEvent: {}
+[1.005848] (-) TimerEvent: {}
+[1.106600] (-) TimerEvent: {}
+[1.207307] (-) TimerEvent: {}
+[1.308034] (-) TimerEvent: {}
+[1.310576] (custom_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.408209] (-) TimerEvent: {}
+[1.508954] (-) TimerEvent: {}
+[1.609242] (custom_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.610156] (-) TimerEvent: {}
+[1.711303] (-) TimerEvent: {}
+[1.812420] (-) TimerEvent: {}
+[1.827526] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[1.860953] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.912608] (-) TimerEvent: {}
+[2.013432] (-) TimerEvent: {}
+[2.114467] (-) TimerEvent: {}
+[2.148709] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.214636] (-) TimerEvent: {}
+[2.315396] (-) TimerEvent: {}
+[2.384370] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[2.415563] (-) TimerEvent: {}
+[2.516351] (-) TimerEvent: {}
+[2.617618] (-) TimerEvent: {}
+[2.719225] (-) TimerEvent: {}
+[2.820312] (-) TimerEvent: {}
+[2.921436] (-) TimerEvent: {}
+[3.022927] (-) TimerEvent: {}
+[3.124066] (-) TimerEvent: {}
+[3.225489] (-) TimerEvent: {}
+[3.326509] (-) TimerEvent: {}
+[3.428017] (-) TimerEvent: {}
+[3.493351] (serial_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg/build', '--no-deps', 'install_data'], 'cwd': '/home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'colin', 'SSH_CLIENT': '192.168.10.147 58600 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/colin/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'BROWSER': '/home/colin/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/colin', 'OLDPWD': '/home/colin/LunaboticsBurm', 'TERM_PROGRAM_VERSION': '1.84.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-81193f7c-8d91-4e51-bc15-83ec35dc8e44.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/colin/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/colin/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'iron', 'LOGNAME': 'colin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/iron/bin:/home/colin/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-67414c3a5b.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.10.147 58600 192.168.10.149 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg/prefix_override:/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[3.528220] (-) TimerEvent: {}
+[3.628962] (-) TimerEvent: {}
+[3.730202] (-) TimerEvent: {}
+[3.803410] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[3.830409] (-) TimerEvent: {}
+[3.931225] (-) TimerEvent: {}
+[4.032643] (-) TimerEvent: {}
+[4.133988] (-) TimerEvent: {}
+[4.234636] (-) TimerEvent: {}
+[4.335353] (-) TimerEvent: {}
+[4.436856] (-) TimerEvent: {}
+[4.537589] (-) TimerEvent: {}
+[4.629739] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.637739] (-) TimerEvent: {}
+[4.696610] (serial_pkg) StdoutLine: {'line': b'running develop\n'}
+[4.703825] (serial_pkg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.704492] (serial_pkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.709512] (serial_pkg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.710089] (serial_pkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.737956] (-) TimerEvent: {}
+[4.838783] (-) TimerEvent: {}
+[4.939623] (-) TimerEvent: {}
+[5.040492] (-) TimerEvent: {}
+[5.141738] (-) TimerEvent: {}
+[5.242672] (-) TimerEvent: {}
+[5.343489] (-) TimerEvent: {}
+[5.444307] (-) TimerEvent: {}
+[5.522029] (serial_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[5.522785] (serial_pkg) StdoutLine: {'line': b'creating serial_pkg.egg-info\n'}
+[5.523371] (serial_pkg) StdoutLine: {'line': b'writing serial_pkg.egg-info/PKG-INFO\n'}
+[5.524148] (serial_pkg) StdoutLine: {'line': b'writing dependency_links to serial_pkg.egg-info/dependency_links.txt\n'}
+[5.524882] (serial_pkg) StdoutLine: {'line': b'writing entry points to serial_pkg.egg-info/entry_points.txt\n'}
+[5.525567] (serial_pkg) StdoutLine: {'line': b'writing requirements to serial_pkg.egg-info/requires.txt\n'}
+[5.526255] (serial_pkg) StdoutLine: {'line': b'writing top-level names to serial_pkg.egg-info/top_level.txt\n'}
+[5.527011] (serial_pkg) StdoutLine: {'line': b"writing manifest file 'serial_pkg.egg-info/SOURCES.txt'\n"}
+[5.534126] (serial_pkg) StdoutLine: {'line': b"reading manifest file 'serial_pkg.egg-info/SOURCES.txt'\n"}
+[5.537212] (serial_pkg) StdoutLine: {'line': b"writing manifest file 'serial_pkg.egg-info/SOURCES.txt'\n"}
+[5.542635] (serial_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[5.543623] (serial_pkg) StdoutLine: {'line': b'Creating /home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib/python3.10/site-packages/serial-pkg.egg-link (link to .)\n'}
+[5.544439] (-) TimerEvent: {}
+[5.548038] (serial_pkg) StdoutLine: {'line': b'Installing serial_handler script to /home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib/serial_pkg\n'}
+[5.548924] (serial_pkg) StdoutLine: {'line': b'Installing serial_listener script to /home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib/serial_pkg\n'}
+[5.550303] (serial_pkg) StdoutLine: {'line': b'\n'}
+[5.551401] (serial_pkg) StdoutLine: {'line': b'Installed /home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg\n'}
+[5.552315] (serial_pkg) StdoutLine: {'line': b'running install_data\n'}
+[5.644697] (-) TimerEvent: {}
+[5.698061] (serial_pkg) CommandEnded: {'returncode': 0}
+[5.736339] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.744809] (-) TimerEvent: {}
+[5.840967] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[5.844937] (-) TimerEvent: {}
+[5.855039] (custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)\n'}
+[5.949201] (-) TimerEvent: {}
+[5.967275] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[5.968528] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.969392] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.970276] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[6.043732] (serial_pkg) JobEnded: {'identifier': 'serial_pkg', 'rc': 0}
+[6.049492] (-) TimerEvent: {}
+[6.067589] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[6.149648] (-) TimerEvent: {}
+[6.224358] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[6.249808] (-) TimerEvent: {}
+[6.350439] (-) TimerEvent: {}
+[6.356991] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.364509] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.384938] (custom_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.450633] (-) TimerEvent: {}
+[6.551484] (-) TimerEvent: {}
+[6.564255] (custom_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[6.578304] (custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces\n'}
+[6.593203] (custom_interfaces) CommandEnded: {'returncode': 0}
+[6.594931] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[6.597341] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'colin'), ('SSH_CLIENT', '192.168.10.147 58600 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/colin/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('BROWSER', '/home/colin/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/colin'), ('OLDPWD', '/home/colin/LunaboticsBurm'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-81193f7c-8d91-4e51-bc15-83ec35dc8e44.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/colin/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/colin/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'colin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('PATH', '/opt/ros/iron/bin:/home/colin/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-67414c3a5b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.10.147 58600 192.168.10.149 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[6.651703] (-) TimerEvent: {}
+[6.752581] (-) TimerEvent: {}
+[6.788689] (custom_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[6.817957] (custom_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_custom_interfaces\n'}
+[6.852884] (-) TimerEvent: {}
+[6.954239] (-) TimerEvent: {}
+[7.054956] (-) TimerEvent: {}
+[7.155656] (-) TimerEvent: {}
+[7.256339] (-) TimerEvent: {}
+[7.356973] (-) TimerEvent: {}
+[7.457605] (-) TimerEvent: {}
+[7.558396] (-) TimerEvent: {}
+[7.636913] (custom_interfaces) StdoutLine: {'line': b'[  2%] Built target custom_interfaces__rosidl_generator_type_description\n'}
+[7.658611] (-) TimerEvent: {}
+[7.681253] (custom_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.717847] (custom_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.758803] (-) TimerEvent: {}
+[7.860379] (-) TimerEvent: {}
+[7.961775] (-) TimerEvent: {}
+[8.003474] (custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[8.006702] (custom_interfaces) StdoutLine: {'line': b'creating custom_interfaces.egg-info\n'}
+[8.007862] (custom_interfaces) StdoutLine: {'line': b'writing custom_interfaces.egg-info/PKG-INFO\n'}
+[8.008944] (custom_interfaces) StdoutLine: {'line': b'writing dependency_links to custom_interfaces.egg-info/dependency_links.txt\n'}
+[8.010201] (custom_interfaces) StdoutLine: {'line': b'writing top-level names to custom_interfaces.egg-info/top_level.txt\n'}
+[8.011500] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[8.021168] (custom_interfaces) StdoutLine: {'line': b"reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[8.024168] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[8.062056] (-) TimerEvent: {}
+[8.164766] (custom_interfaces) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_custom_interfaces_egg\n'}
+[8.187645] (-) TimerEvent: {}
+[8.288953] (-) TimerEvent: {}
+[8.389659] (-) TimerEvent: {}
+[8.490327] (-) TimerEvent: {}
+[8.591027] (-) TimerEvent: {}
+[8.691890] (-) TimerEvent: {}
+[8.793175] (-) TimerEvent: {}
+[8.824504] (custom_interfaces) StdoutLine: {'line': b'[  8%] Built target custom_interfaces__cpp\n'}
+[8.893376] (-) TimerEvent: {}
+[8.977336] (custom_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/serial_read__description.c.o\x1b[0m\n'}
+[8.979641] (custom_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/serial_read__functions.c.o\x1b[0m\n'}
+[8.982717] (custom_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/serial_read__type_support.c.o\x1b[0m\n'}
+[8.993672] (-) TimerEvent: {}
+[9.094857] (-) TimerEvent: {}
+[9.195755] (-) TimerEvent: {}
+[9.271806] (custom_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[9.295937] (-) TimerEvent: {}
+[9.396709] (-) TimerEvent: {}
+[9.436384] (custom_interfaces) StdoutLine: {'line': b'[ 20%] Built target custom_interfaces__rosidl_generator_c\n'}
+[9.478682] (custom_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.480514] (custom_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.482877] (custom_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[9.487223] (custom_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.497082] (-) TimerEvent: {}
+[9.599073] (-) TimerEvent: {}
+[9.700799] (-) TimerEvent: {}
+[9.803021] (-) TimerEvent: {}
+[9.905640] (-) TimerEvent: {}
+[10.009522] (-) TimerEvent: {}
+[10.111040] (-) TimerEvent: {}
+[10.212839] (-) TimerEvent: {}
+[10.314305] (-) TimerEvent: {}
+[10.415707] (-) TimerEvent: {}
+[10.517357] (-) TimerEvent: {}
+[10.620024] (-) TimerEvent: {}
+[10.724040] (-) TimerEvent: {}
+[10.813047] (custom_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/serial_read__type_support.cpp.o\x1b[0m\n'}
+[10.824309] (-) TimerEvent: {}
+[10.834145] (custom_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/serial_read__type_support.cpp.o\x1b[0m\n'}
+[10.860971] (custom_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/serial_read__type_support_c.cpp.o\x1b[0m\n'}
+[10.887778] (custom_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/serial_read__type_support.c.o\x1b[0m\n'}
+[10.924509] (-) TimerEvent: {}
+[11.026111] (-) TimerEvent: {}
+[11.071817] (custom_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.084663] (custom_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.126331] (-) TimerEvent: {}
+[11.218421] (custom_interfaces) StdoutLine: {'line': b'[ 50%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[11.226527] (-) TimerEvent: {}
+[11.240331] (custom_interfaces) StdoutLine: {'line': b'[ 50%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[11.264991] (custom_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[11.281840] (custom_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[11.326767] (-) TimerEvent: {}
+[11.429162] (-) TimerEvent: {}
+[11.531406] (-) TimerEvent: {}
+[11.633304] (-) TimerEvent: {}
+[11.735038] (-) TimerEvent: {}
+[11.836955] (-) TimerEvent: {}
+[11.938555] (-) TimerEvent: {}
+[12.039499] (-) TimerEvent: {}
+[12.140529] (-) TimerEvent: {}
+[12.241457] (-) TimerEvent: {}
+[12.342393] (-) TimerEvent: {}
+[12.443495] (-) TimerEvent: {}
+[12.545744] (-) TimerEvent: {}
+[12.647311] (-) TimerEvent: {}
+[12.691502] (custom_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/serial_read__type_support.cpp.o\x1b[0m\n'}
+[12.712270] (custom_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/serial_read__type_support.cpp.o\x1b[0m\n'}
+[12.747543] (-) TimerEvent: {}
+[12.849242] (-) TimerEvent: {}
+[12.950769] (-) TimerEvent: {}
+[13.053139] (-) TimerEvent: {}
+[13.154686] (-) TimerEvent: {}
+[13.256436] (-) TimerEvent: {}
+[13.329861] (custom_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[13.356647] (-) TimerEvent: {}
+[13.380313] (custom_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[13.456913] (-) TimerEvent: {}
+[13.558020] (-) TimerEvent: {}
+[13.562000] (custom_interfaces) StdoutLine: {'line': b'[ 67%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[13.658223] (-) TimerEvent: {}
+[13.743266] (custom_interfaces) StdoutLine: {'line': b'[ 67%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[13.758482] (-) TimerEvent: {}
+[13.859416] (-) TimerEvent: {}
+[13.960189] (-) TimerEvent: {}
+[14.060981] (-) TimerEvent: {}
+[14.161826] (-) TimerEvent: {}
+[14.262629] (-) TimerEvent: {}
+[14.363470] (-) TimerEvent: {}
+[14.464343] (-) TimerEvent: {}
+[14.565146] (-) TimerEvent: {}
+[14.666054] (-) TimerEvent: {}
+[14.766863] (-) TimerEvent: {}
+[14.844658] (custom_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[14.867077] (-) TimerEvent: {}
+[14.968028] (-) TimerEvent: {}
+[15.069018] (-) TimerEvent: {}
+[15.149405] (custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[15.169209] (-) TimerEvent: {}
+[15.269936] (-) TimerEvent: {}
+[15.370676] (-) TimerEvent: {}
+[15.471439] (-) TimerEvent: {}
+[15.563600] (custom_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[15.571613] (-) TimerEvent: {}
+[15.672421] (-) TimerEvent: {}
+[15.773531] (-) TimerEvent: {}
+[15.854869] (custom_interfaces) StdoutLine: {'line': b'[ 73%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[15.873749] (-) TimerEvent: {}
+[15.931955] (custom_interfaces) StdoutLine: {'line': b'[ 73%] Built target custom_interfaces\n'}
+[15.973995] (-) TimerEvent: {}
+[16.011809] (custom_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[16.074151] (-) TimerEvent: {}
+[16.174811] (-) TimerEvent: {}
+[16.275459] (-) TimerEvent: {}
+[16.376064] (-) TimerEvent: {}
+[16.476798] (-) TimerEvent: {}
+[16.577902] (-) TimerEvent: {}
+[16.678525] (-) TimerEvent: {}
+[16.779170] (-) TimerEvent: {}
+[16.879763] (-) TimerEvent: {}
+[16.980351] (-) TimerEvent: {}
+[17.081060] (-) TimerEvent: {}
+[17.178060] (custom_interfaces) StdoutLine: {'line': b'[ 76%] Built target custom_interfaces__py\n'}
+[17.181211] (-) TimerEvent: {}
+[17.257342] (custom_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_serial_read_s.c.o\x1b[0m\n'}
+[17.281448] (-) TimerEvent: {}
+[17.382246] (-) TimerEvent: {}
+[17.482898] (-) TimerEvent: {}
+[17.583590] (-) TimerEvent: {}
+[17.684306] (-) TimerEvent: {}
+[17.785015] (-) TimerEvent: {}
+[17.795235] (custom_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[17.885269] (-) TimerEvent: {}
+[17.976050] (custom_interfaces) StdoutLine: {'line': b'[ 82%] Built target custom_interfaces__rosidl_generator_py\n'}
+[17.985489] (-) TimerEvent: {}
+[18.058592] (custom_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[18.060389] (custom_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[18.062679] (custom_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[18.085805] (-) TimerEvent: {}
+[18.188086] (-) TimerEvent: {}
+[18.307739] (-) TimerEvent: {}
+[18.409064] (-) TimerEvent: {}
+[18.510009] (-) TimerEvent: {}
+[18.516098] (custom_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[18.531282] (custom_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[18.566018] (custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[18.610298] (-) TimerEvent: {}
+[18.681436] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[18.698625] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[18.710476] (-) TimerEvent: {}
+[18.741836] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[18.780475] (custom_interfaces) CommandEnded: {'returncode': 0}
+[18.810674] (-) TimerEvent: {}
+[18.911413] (-) TimerEvent: {}
+[19.012128] (-) TimerEvent: {}
+[19.112983] (-) TimerEvent: {}
+[19.172498] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'install'}
+[19.205401] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces'], 'cwd': '/home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'colin'), ('SSH_CLIENT', '192.168.10.147 58600 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/colin/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('BROWSER', '/home/colin/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/colin'), ('OLDPWD', '/home/colin/LunaboticsBurm'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-81193f7c-8d91-4e51-bc15-83ec35dc8e44.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/colin/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/colin/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'colin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('PATH', '/opt/ros/iron/bin:/home/colin/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-67414c3a5b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.10.147 58600 192.168.10.149 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[19.213127] (-) TimerEvent: {}
+[19.236791] (custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.238688] (custom_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[19.240228] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces\n'}
+[19.241349] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/msg/SerialRead.json\n'}
+[19.244125] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/serial_read__functions.h\n'}
+[19.245044] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/serial_read__struct.h\n'}
+[19.246036] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/serial_read__type_support.h\n'}
+[19.246946] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[19.247902] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/serial_read.h\n'}
+[19.248958] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh\n'}
+[19.249898] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv\n'}
+[19.252905] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/serial_read__rosidl_typesupport_fastrtps_c.h\n'}
+[19.253769] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[19.256129] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/serial_read__rosidl_typesupport_introspection_c.h\n'}
+[19.257047] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[19.259338] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/serial_read__builder.hpp\n'}
+[19.260296] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/serial_read__struct.hpp\n'}
+[19.261272] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/serial_read__traits.hpp\n'}
+[19.262174] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/serial_read.hpp\n'}
+[19.265592] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/serial_read__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.266482] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[19.268710] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/serial_read__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.269649] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh\n'}
+[19.270591] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv\n'}
+[19.272559] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[19.273438] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[19.274363] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[19.275318] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[19.280070] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/__init__.py\n'}
+[19.280878] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[19.281821] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[19.282707] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[19.283664] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[19.284559] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[19.285522] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[19.286363] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\n'}
+[19.287356] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/msg/__init__.py\n'}
+[19.288269] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/msg/_serial_read.py\n'}
+[19.289188] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/msg/_serial_read_s.c\n'}
+[19.290792] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[19.292352] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[19.293860] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[19.294870] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/msg/SerialRead.idl\n'}
+[19.295842] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/msg/SerialRead.msg\n'}
+[19.297032] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces\n'}
+[19.298194] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces\n'}
+[19.299209] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh\n'}
+[19.300168] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[19.301108] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/environment/path.sh\n'}
+[19.302046] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/environment/path.dsv\n'}
+[19.302952] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/local_setup.bash\n'}
+[19.303904] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/local_setup.sh\n'}
+[19.304816] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/local_setup.zsh\n'}
+[19.305725] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/local_setup.dsv\n'}
+[19.306296] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/package.dsv\n'}
+[19.313300] (-) TimerEvent: {}
+[19.337295] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces\n'}
+[19.338088] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[19.339248] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.340429] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[19.341645] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[19.342777] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[19.343972] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.345107] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[19.346225] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake\n'}
+[19.347153] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake\n'}
+[19.348317] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/package.xml\n'}
+[19.349786] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so\n'}
+[19.352507] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""\n'}
+[19.353664] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[19.356403] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[19.357470] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[19.360236] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[19.361233] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so\n'}
+[19.363595] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[19.364731] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[19.367583] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[19.368758] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[19.371623] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[19.372642] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so\n'}
+[19.374995] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[19.413451] (-) TimerEvent: {}
+[19.514137] (-) TimerEvent: {}
+[19.522465] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces'...\n"}
+[19.523923] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/__init__.py'...\n"}
+[19.525076] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/msg'...\n"}
+[19.525912] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/msg/__init__.py'...\n"}
+[19.526841] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages/custom_interfaces/msg/_serial_read.py'...\n"}
+[19.546151] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so\n'}
+[19.548690] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""\n'}
+[19.549517] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[19.551232] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[19.553943] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[19.556229] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[19.558936] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[19.561284] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[19.563774] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[19.565302] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[19.567110] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[19.569019] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[19.570608] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[19.572523] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[19.574089] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[19.576013] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[19.577526] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[19.579368] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[19.580909] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[19.587813] (custom_interfaces) CommandEnded: {'returncode': 0}
+[19.614401] (-) TimerEvent: {}
+[19.715627] (-) TimerEvent: {}
+[19.816306] (-) TimerEvent: {}
+[19.917544] (-) TimerEvent: {}
+[20.018226] (-) TimerEvent: {}
+[20.118943] (-) TimerEvent: {}
+[20.219897] (-) TimerEvent: {}
+[20.320598] (-) TimerEvent: {}
+[20.421722] (-) TimerEvent: {}
+[20.522426] (-) TimerEvent: {}
+[20.623147] (-) TimerEvent: {}
+[20.650637] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 0}
+[20.653256] (-) EventReactorShutdown: {}

@@ -1,0 +1,1 @@
+/home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/detail/serial_write__type_support.h

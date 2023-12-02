@@ -1,0 +1,40 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+Removing /home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib/python3.10/site-packages/serial-pkg.egg-link (link to .)
+running egg_info
+writing ../../build/serial_pkg/serial_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/serial_pkg/serial_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/serial_pkg/serial_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/serial_pkg/serial_pkg.egg-info/requires.txt
+writing top-level names to ../../build/serial_pkg/serial_pkg.egg-info/top_level.txt
+reading manifest file '../../build/serial_pkg/serial_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/serial_pkg/serial_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg/build
+creating /home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg/build/lib
+creating /home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg/build/lib/serial_pkg
+copying serial_pkg/serial_listener.py -> /home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg/build/lib/serial_pkg
+copying serial_pkg/__init__.py -> /home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg/build/lib/serial_pkg
+copying serial_pkg/serial_handler.py -> /home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg/build/lib/serial_pkg
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib/python3.10/site-packages/serial_pkg
+copying /home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg/build/lib/serial_pkg/serial_listener.py -> /home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib/python3.10/site-packages/serial_pkg
+copying /home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg/build/lib/serial_pkg/__init__.py -> /home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib/python3.10/site-packages/serial_pkg
+copying /home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg/build/lib/serial_pkg/serial_handler.py -> /home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib/python3.10/site-packages/serial_pkg
+byte-compiling /home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib/python3.10/site-packages/serial_pkg/serial_listener.py to serial_listener.cpython-310.pyc
+byte-compiling /home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib/python3.10/site-packages/serial_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib/python3.10/site-packages/serial_pkg/serial_handler.py to serial_handler.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../build/serial_pkg/serial_pkg.egg-info to /home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib/python3.10/site-packages/serial_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing serial_handler script to /home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib/serial_pkg
+Installing serial_listener script to /home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib/serial_pkg
+writing list of installed files to '/home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg/install.log'

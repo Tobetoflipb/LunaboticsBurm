@@ -1,0 +1,213 @@
+[3.657s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[3.657s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa39f3130>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa3d1f310>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa3d1f310>>)
+[3.838s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.839s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.843s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.844s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.844s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.844s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.844s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/colin/LunaboticsBurm/ros2_ws_dev'
+[3.845s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.845s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.845s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.846s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.846s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.846s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.846s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.846s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.846s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.896s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.897s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.897s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.897s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.897s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.898s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.898s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.898s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.899s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.900s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.900s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.901s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.901s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.901s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.902s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.902s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.902s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[3.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore'
+[3.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore_ament_install'
+[3.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_pkg']
+[3.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_pkg'
+[3.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_meta']
+[3.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_meta'
+[3.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ros']
+[3.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ros'
+[3.915s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'
+[3.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_pkg) by extensions ['ignore', 'ignore_ament_install']
+[3.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_pkg) by extension 'ignore'
+[3.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_pkg) by extension 'ignore_ament_install'
+[3.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_pkg) by extensions ['colcon_pkg']
+[3.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_pkg) by extension 'colcon_pkg'
+[3.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_pkg) by extensions ['colcon_meta']
+[3.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_pkg) by extension 'colcon_meta'
+[3.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_pkg) by extensions ['ros']
+[3.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_pkg) by extension 'ros'
+[3.919s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_pkg' with type 'ros.ament_python' and name 'serial_pkg'
+[3.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.372s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/colin/LunaboticsBurm/ros2_ws_dev/install
+[4.430s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 192 installed packages in /opt/ros/iron
+[4.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.680s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[4.681s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[4.681s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.681s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[4.681s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[4.681s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[4.681s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[4.681s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[4.681s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.682s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces', 'merge_install': False, 'path': '/home/colin/LunaboticsBurm/ros2_ws_dev/src/custom_interfaces', 'symlink_install': True, 'test_result_base': None}
+[4.733s] Level 5:colcon.colcon_core.verb:set package 'serial_pkg' build argument 'cmake_args' from command line to 'None'
+[4.733s] Level 5:colcon.colcon_core.verb:set package 'serial_pkg' build argument 'cmake_target' from command line to 'None'
+[4.733s] Level 5:colcon.colcon_core.verb:set package 'serial_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.734s] Level 5:colcon.colcon_core.verb:set package 'serial_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[4.734s] Level 5:colcon.colcon_core.verb:set package 'serial_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[4.734s] Level 5:colcon.colcon_core.verb:set package 'serial_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[4.734s] Level 5:colcon.colcon_core.verb:set package 'serial_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[4.734s] Level 5:colcon.colcon_core.verb:set package 'serial_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[4.734s] Level 5:colcon.colcon_core.verb:set package 'serial_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.734s] DEBUG:colcon.colcon_core.verb:Building package 'serial_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg', 'merge_install': False, 'path': '/home/colin/LunaboticsBurm/ros2_ws_dev/src/serial_pkg', 'symlink_install': True, 'test_result_base': None}
+[4.785s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.840s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.841s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/colin/LunaboticsBurm/ros2_ws_dev/src/custom_interfaces' with build type 'ament_cmake'
+[4.842s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/colin/LunaboticsBurm/ros2_ws_dev/src/custom_interfaces'
+[4.903s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.904s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.904s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.076s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/colin/LunaboticsBurm/ros2_ws_dev/src/serial_pkg' with build type 'ament_python'
+[5.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_pkg', 'ament_prefix_path')
+[5.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/share/serial_pkg/hook/ament_prefix_path.ps1'
+[5.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/share/serial_pkg/hook/ament_prefix_path.dsv'
+[5.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/share/serial_pkg/hook/ament_prefix_path.sh'
+[5.193s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.193s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg /usr/bin/cmake --build /home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces -- -j4 -l4
+[6.638s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/colin/LunaboticsBurm/ros2_ws_dev/src/serial_pkg'
+[6.712s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.713s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.719s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg': PYTHONPATH=/home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg/prefix_override:/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg/build --no-deps install_data
+[11.015s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_pkg', 'pythonpath_develop')
+[11.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg' returned '0': PYTHONPATH=/home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg/prefix_override:/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg/build --no-deps install_data
+[11.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg/share/serial_pkg/hook/pythonpath_develop.ps1'
+[11.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg/share/serial_pkg/hook/pythonpath_develop.dsv'
+[11.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/colin/LunaboticsBurm/ros2_ws_dev/build/serial_pkg/share/serial_pkg/hook/pythonpath_develop.sh'
+[11.250s] Level 1:colcon.colcon_core.environment:checking '/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg' for CMake module files
+[11.253s] Level 1:colcon.colcon_core.environment:checking '/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg' for CMake config files
+[11.257s] Level 1:colcon.colcon_core.environment:checking '/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib'
+[11.260s] Level 1:colcon.colcon_core.environment:checking '/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/bin'
+[11.261s] Level 1:colcon.colcon_core.environment:checking '/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib/pkgconfig/serial_pkg.pc'
+[11.263s] Level 1:colcon.colcon_core.environment:checking '/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/lib/python3.10/site-packages'
+[11.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_pkg', 'pythonpath')
+[11.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/share/serial_pkg/hook/pythonpath.ps1'
+[11.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/share/serial_pkg/hook/pythonpath.dsv'
+[11.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/share/serial_pkg/hook/pythonpath.sh'
+[11.378s] Level 1:colcon.colcon_core.environment:checking '/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/bin'
+[11.379s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_pkg)
+[11.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/share/serial_pkg/package.ps1'
+[11.480s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/share/serial_pkg/package.dsv'
+[11.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/share/serial_pkg/package.sh'
+[11.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/share/serial_pkg/package.bash'
+[11.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/share/serial_pkg/package.zsh'
+[11.505s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg/share/colcon-core/packages/serial_pkg)
+[34.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg /usr/bin/cmake --build /home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces -- -j4 -l4
+[34.672s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg /usr/bin/cmake --install /home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces
+[35.082s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[35.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg /usr/bin/cmake --install /home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces
+[35.138s] Level 1:colcon.colcon_core.environment:checking '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces' for CMake module files
+[35.142s] Level 1:colcon.colcon_core.environment:checking '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces' for CMake config files
+[35.149s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[35.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[35.201s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[35.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[35.206s] Level 1:colcon.colcon_core.environment:checking '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib'
+[35.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[35.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[35.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[35.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[35.265s] Level 1:colcon.colcon_core.environment:checking '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/bin'
+[35.265s] Level 1:colcon.colcon_core.environment:checking '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[35.266s] Level 1:colcon.colcon_core.environment:checking '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages'
+[35.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'pythonpath')
+[35.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.ps1'
+[35.325s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.dsv'
+[35.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.sh'
+[35.329s] Level 1:colcon.colcon_core.environment:checking '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/bin'
+[35.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[35.395s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[35.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/package.sh'
+[35.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/package.bash'
+[35.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[35.403s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[36.047s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[36.099s] Level 1:colcon.colcon_core.environment:checking '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces' for CMake module files
+[36.104s] Level 1:colcon.colcon_core.environment:checking '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces' for CMake config files
+[36.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[36.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[36.165s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[36.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[36.169s] Level 1:colcon.colcon_core.environment:checking '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib'
+[36.170s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[36.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[36.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[36.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[36.229s] Level 1:colcon.colcon_core.environment:checking '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/bin'
+[36.229s] Level 1:colcon.colcon_core.environment:checking '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[36.231s] Level 1:colcon.colcon_core.environment:checking '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/lib/python3.10/site-packages'
+[36.231s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'pythonpath')
+[36.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.ps1'
+[36.284s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.dsv'
+[36.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.sh'
+[36.289s] Level 1:colcon.colcon_core.environment:checking '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/bin'
+[36.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[36.347s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[36.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/package.sh'
+[36.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/package.bash'
+[36.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[36.356s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/colin/LunaboticsBurm/ros2_ws_dev/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[36.357s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[36.358s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[36.358s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[36.359s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[36.432s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[36.433s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[36.433s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[36.433s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[36.436s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[36.436s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[36.497s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/colin/LunaboticsBurm/ros2_ws_dev/install/local_setup.ps1'
+[36.501s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/colin/LunaboticsBurm/ros2_ws_dev/install/_local_setup_util_ps1.py'
+[36.507s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/colin/LunaboticsBurm/ros2_ws_dev/install/setup.ps1'
+[36.561s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/colin/LunaboticsBurm/ros2_ws_dev/install/local_setup.sh'
+[36.564s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/colin/LunaboticsBurm/ros2_ws_dev/install/_local_setup_util_sh.py'
+[36.567s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/colin/LunaboticsBurm/ros2_ws_dev/install/setup.sh'
+[36.623s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/colin/LunaboticsBurm/ros2_ws_dev/install/local_setup.bash'
+[36.625s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/colin/LunaboticsBurm/ros2_ws_dev/install/setup.bash'
+[36.681s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/colin/LunaboticsBurm/ros2_ws_dev/install/local_setup.zsh'
+[36.684s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/colin/LunaboticsBurm/ros2_ws_dev/install/setup.zsh'

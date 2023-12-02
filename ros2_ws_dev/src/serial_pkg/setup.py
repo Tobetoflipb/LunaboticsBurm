@@ -22,6 +22,8 @@ setup(
         'console_scripts': [
             'serial_handler = serial_pkg.serial_handler:main',
             'serial_listener = serial_pkg.serial_listener:main',
+            'serial_ldcl = serial_pkg.serial_ldcl:main',
+            'serial_lnac = serial_pkg.serial_lnac:main',
         ],
     },
 )

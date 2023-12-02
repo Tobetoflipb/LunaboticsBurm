@@ -1,0 +1,54 @@
+[0.533s] Invoking command in '/home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg /usr/bin/cmake --build /home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces -- -j4 -l4
+[0.641s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.313s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.350s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[1.361s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.523s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.659s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[2.508s] -- Configuring incomplete, errors occurred!
+[2.509s] See also "/home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces/CMakeFiles/CMakeOutput.log".
+[2.510s] [31mCMake Error at /opt/ros/iron/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[2.510s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[2.511s]   custom_interfaces --arguments-file
+[2.511s]   /home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces/rosidl_adapter__arguments__custom_interfaces.json
+[2.513s]   --output-dir
+[2.514s]   /home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces/rosidl_adapter/custom_interfaces
+[2.516s]   --output-file
+[2.518s]   /home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces/rosidl_adapter/custom_interfaces.idls)
+[2.519s]   returned error code 1:
+[2.519s] 
+[2.520s]   Error processing 'byte data[]' of 'custom_interfaces/SerialWrite_Request':
+[2.520s]   ''data[]' is an invalid field name.  It should have the pattern
+[2.521s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[2.521s] 
+[2.522s]   Traceback (most recent call last):
+[2.522s] 
+[2.524s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[2.526s]       return _run_code(code, main_globals, None,
+[2.527s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[2.528s]       exec(code, run_globals)
+[2.528s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[2.529s]       sys.exit(main())
+[2.530s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/main.py", line 53, in main
+[2.533s]       abs_idl_file = convert_to_idl(
+[2.534s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[2.537s]       return convert_srv_to_idl(
+[2.537s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[2.538s]       srv = parse_service_string(package_name, input_file.stem, content)
+[2.538s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 860, in parse_service_string
+[2.538s]       request_message = parse_message_string(
+[2.539s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+[2.539s]       fields.append(Field(
+[2.540s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 355, in __init__
+[2.540s]       raise NameError(
+[2.540s] 
+[2.541s]   NameError: 'data[]' is an invalid field name.  It should have the pattern
+[2.541s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[2.541s] 
+[2.542s] Call Stack (most recent call first):
+[2.542s]   /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[2.543s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[2.543s] 
+[2.544s] [0m
+[2.544s] gmake: *** [Makefile:1085: cmake_check_build_system] Error 1
+[2.545s] Invoked command in '/home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/colin/LunaboticsBurm/ros2_ws_dev/install/serial_pkg /usr/bin/cmake --build /home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces -- -j4 -l4

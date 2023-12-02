@@ -56,7 +56,7 @@ add_library(custom_interfaces::custom_interfaces__rosidl_generator_cpp INTERFACE
 set_target_properties(custom_interfaces::custom_interfaces__rosidl_generator_cpp PROPERTIES
   INTERFACE_COMPILE_FEATURES "cxx_std_17"
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include/custom_interfaces"
-  INTERFACE_LINK_LIBRARIES "rosidl_runtime_cpp::rosidl_runtime_cpp"
+  INTERFACE_LINK_LIBRARIES "service_msgs::service_msgs__rosidl_generator_cpp;builtin_interfaces::builtin_interfaces__rosidl_generator_cpp;rosidl_runtime_cpp::rosidl_runtime_cpp"
 )
 
 if(CMAKE_VERSION VERSION_LESS 3.0.0)

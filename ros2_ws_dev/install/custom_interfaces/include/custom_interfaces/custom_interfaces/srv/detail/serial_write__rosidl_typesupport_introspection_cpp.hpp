@@ -1,0 +1,1 @@
+/home/colin/LunaboticsBurm/ros2_ws_dev/build/custom_interfaces/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/serial_write__rosidl_typesupport_introspection_cpp.hpp
