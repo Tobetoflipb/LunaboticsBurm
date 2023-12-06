@@ -1,9 +1,8 @@
-import rclpy
-from rclpy.node import Node
-import serial
-import custom_interfaces
-from custom_interfaces.msg import SerialRead
-from custom_interfaces.srv import SerialWrite
+import rclpy	# ROS
+from rclpy.node import Node	
+import serial	# Package for managing serial ports
+from custom_interfaces.msg import SerialRead	# Interface for serial_read messages	
+from custom_interfaces.srv import SerialWrite	# Interface for serial_write requests/responses
 from collections import namedtuple
 
 class SerialHandler(Node):
@@ -18,19 +17,19 @@ class SerialHandler(Node):
 		self.SerialPort = namedtuple('SerialPort',['portname','ser'])
 		self.SerialPorts = []
 		try:
-			self.SerialPorts.append(self.SerialPort('Test',serial.Serial('/dev/ttyACM0',1000000)))
+			self.SerialPorts.append(self.SerialPort('Test',serial.Serial('/dev/ttyACM0',1000000)))	# Create serial port on ACM0
 			print('Serial 1 Opened')
 		except:
 			pass
 		try:
-			self.SerialPorts.append(self.SerialPort('Test2',serial.Serial('/dev/ttyACM1')))
+			self.SerialPorts.append(self.SerialPort('Test2',serial.Serial('/dev/ttyACM1')))	# Create serial port on ACM1
 		except:
 			pass
 		
 		timer_period  = 1/10 #s
-		self.timer = self.create_timer(timer_period,self.timer_callback)
+		self.timer = self.create_timer(timer_period,self.timer_callback) # Create serial read timer
 
-	def timer_callback(self):
+	def timer_callback(self):	# Executes whenever the timer increments
 		for port in self.SerialPorts:
 			if port.ser.in_waiting > 0:
 				serial_read = port.ser.readline() # Read the serial port
@@ -44,25 +43,20 @@ class SerialHandler(Node):
 				msg.identifier = identifier_
 				msg.data = data_
 				self.publisher_.publish(msg)
+
 				print('Succesful Read')
-				print(msg.data)
+				print(msg.data)	# Print published data for debug purposes
 				print('\n')
-				
-				#if serial_read[1] == b'w': # If the first byte is 'w', add the data to the serial_write buffer
-					#self.serial_write_buffer.append(self.SerialWriteFeedback[identifier_,data_])
-				#else: # If the first byte is 'r' or anything else, perform serial_read logic
-				
-			else:
-				pass
 
 	def serial_write_callback(self,request,response):
 		for port in self.SerialPorts:
+			# Set the serial port based on requested portname
 			if port.portname == request.portname:
 				port_to_write = port.ser
 
 		try:
 			request.data.append(b'\n')
-			port_to_write.write(b''.join(request.data))
+			port_to_write.write(b''.join(request.data)) # Write the data to the requested serial port
 			print('Succesful Write')
 			print(b''.join(request.data))
 			print('\n')
@@ -72,14 +66,13 @@ class SerialHandler(Node):
 		return response
 		
 def main():
-	rclpy.init()
+	rclpy.init() # Initialize ROS 
 
-	serial_handler = SerialHandler()
+	serial_handler = SerialHandler() # Create an instance of the SerialHandler node
 
-	rclpy.spin(serial_handler)
+	rclpy.spin(serial_handler) # Spin the node (execute code)
 
-	serial_handler.destroy_node()
-	rclpy.shutdown()
+	rclpy.shutdown() # Destroy Node
 
 
 if __name__ == '__main__':
